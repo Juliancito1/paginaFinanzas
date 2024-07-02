@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { seccionData } from "../utils/seccionData";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { finanzas } from "../redux/slices/finanzasSlice";
 import { useDispatch } from "react-redux";
 
@@ -43,13 +43,13 @@ const AgregarTransaccion = () => {
         </div>
       </div>
       
-      <div className="max-w-7xl mx-auto mt-10 grid grid-cols-5 gap-10 pl-6 mb-16">
-        <div className="col-span-2">
+      <div className="max-w-7xl mx-auto mt-10 grid md:grid-cols-5 gap-10 pl-6 mb-16">
+        <div className="md:col-span-2 mr-6">
           <h1 className="py-4 text-sky-900 text-3xl font-bold">Completá el formulario, agregá una transacción y empezá a operar</h1>
           <p>Harum recusandae ducimus beatae reiciendis facere nisi repudiandae laboriosam numquam mollitia dolor minima distinctio cum aspernatur ea non, corrupti molestiae aliquam. Delectus, molestiae recusandae, beatae alias inventore at perspiciatis, in rerum quibusdam nesciunt saepe fugit sequi voluptates! Voluptas fugit officiis ab nihil voluptatibus, deserunt, dolorum eius laborum voluptates mollitia architecto dolor corrupti.</p>
           <p className="mt-3 italic">Ipsum orem dolor sit amet, consectetur adipisicing elit. Earum, corrupti eaque. Similique quos ea perspiciatis libero velit quam sunt. Culpa vel dolorum minus!</p>
         </div>
-        <div className="col-span-3 bg-neutral-200 p-6 rounded-lg">
+        <div className="md:col-span-3 mr-6 bg-neutral-200 p-6 rounded-lg">
           <form className="text-[18px]" onSubmit={handleTransaccion}>
             <p className="uppercase font-bold text-sky-700 text-3xl pb-4">Nueva transacción</p>
             <label className="flex bg-neutral-500 text-white w-fit ml-2 px-4 rounded-t-md">Descripcion</label>
