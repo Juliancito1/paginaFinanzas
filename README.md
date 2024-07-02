@@ -1,8 +1,22 @@
-# React + Vite
+# Rolling Finance 💲
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Pagina realizada para que las personas puedan llevar un calculo de sus transacciones/finanzas**
 
-Currently, two official plugins are available:
+## Como clonar el repositorio 💻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+git clone https://github.com/Fedreric/Proyecto-Git--Pokemon.git
+```
+## **Importante**
+**Al clonar el repositorio recuerde utilizar el comando npm install en su terminal**
+
+## Tecnologias / Herramientas ⚒️
+- React
+- Tailwind CSS
+- React-Router-Dom
+
+## Autores 👨🏻‍💻
+1. **Federico Alvarez**
+2. **Cosme Nicolas Mas**
+3. **Oscar Frias Viñals**
+4. **Julian Martin**
